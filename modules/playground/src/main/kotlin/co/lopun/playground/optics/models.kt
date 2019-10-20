@@ -1,4 +1,4 @@
-package co.lopun.playground.samples.optics
+package co.lopun.playground.optics
 
 import arrow.core.ListK
 import arrow.core.MapK

@@ -1,7 +1,6 @@
-package co.lopun.playground.samples.fx
+package co.lopun.playground.fx
 
 import arrow.core.*
-import arrow.core.extensions.andthen.applicative.just
 import arrow.core.extensions.fx
 import arrow.unsafe
 import kotlinx.coroutines.runBlocking

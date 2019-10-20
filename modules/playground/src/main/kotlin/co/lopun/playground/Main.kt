@@ -1,11 +1,11 @@
 package co.lopun.playground
 
-import co.lopun.playground.samples.fx.*
-import co.lopun.playground.samples.optics.atTutorial
-import co.lopun.playground.samples.optics.eachTutorial
-import co.lopun.playground.samples.optics.indexTutorial
-import co.lopun.playground.samples.syntax.curryAndPartial
-import co.lopun.playground.samples.optics.opticsGeneratedDsl
+import co.lopun.playground.fx.*
+import co.lopun.playground.optics.atTutorial
+import co.lopun.playground.optics.eachTutorial
+import co.lopun.playground.optics.indexTutorial
+import co.lopun.playground.syntax.curryAndPartial
+import co.lopun.playground.optics.opticsGeneratedDsl
 
 fun main() {
     println("=== curryAndParital ===")

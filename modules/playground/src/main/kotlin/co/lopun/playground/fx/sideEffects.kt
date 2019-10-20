@@ -1,4 +1,4 @@
-package co.lopun.playground.samples.fx
+package co.lopun.playground.fx
 
 import arrow.fx.IO
 import arrow.fx.extensions.fx

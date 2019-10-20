@@ -1,10 +1,8 @@
-package co.lopun.playground.samples.fx
+package co.lopun.playground.fx
 
 import arrow.fx.IO
 import arrow.fx.extensions.fx
-import arrow.unsafe
 import kotlinx.coroutines.newSingleThreadContext
-import kotlinx.coroutines.runBlocking
 import kotlin.coroutines.coroutineContext
 
 // dispatchers().default() is an execution context that’s available to all concurrent data types,

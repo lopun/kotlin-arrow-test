@@ -1,4 +1,4 @@
-package co.lopun.playground.samples.optics
+package co.lopun.playground.optics
 
 import arrow.core.ListK
 import arrow.core.MapK
@@ -10,7 +10,6 @@ import arrow.optics.dsl.some
 import arrow.optics.extensions.listk.each.each
 import arrow.optics.extensions.listk.index.index
 import arrow.optics.extensions.mapk.at.at
-import arrow.optics.optics
 
 fun opticsGeneratedDsl() {
     val john = Employee("John Doe", Company("Kategory", Address("Functional city", Street(42, "lambda street"))))

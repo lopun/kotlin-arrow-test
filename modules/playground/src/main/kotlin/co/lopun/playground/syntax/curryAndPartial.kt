@@ -1,4 +1,4 @@
-package co.lopun.playground.samples.syntax
+package co.lopun.playground.syntax
 
 import arrow.syntax.function.*
 
