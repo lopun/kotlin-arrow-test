@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.3.30" apply false
+    kotlin("jvm") version "1.3.50" apply false
 }
 
 val projectGroup: String by project

@@ -1,5 +1,6 @@
 package co.lopun.playground
 
+import co.lopun.playground.samples.fx.*
 import co.lopun.playground.samples.optics.atTutorial
 import co.lopun.playground.samples.optics.eachTutorial
 import co.lopun.playground.samples.optics.indexTutorial
@@ -17,4 +18,16 @@ fun main() {
     atTutorial()
     println("=== indexTutorial ===")
     indexTutorial()
+    println("=== sideEffectsTutorial ===")
+    sideEffectsTutorial()
+    println("=== dispatchersAndContexts ===")
+    dispatchersAndContexts()
+    println("=== fibersTutorial ===")
+    fibersTutorial()
+    println("=== perMapNTutoiral ===")
+    perMapNTutorial()
+    println("=== fxForOption ===")
+    fxForOption()
+    println("=== justTutorial ===")
+    justTutorial()
 }
