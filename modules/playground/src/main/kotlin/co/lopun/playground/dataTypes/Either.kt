@@ -114,8 +114,7 @@ fun functorAndApplicativeAndMonad() {
     Right(1).map { it + 1 }
 
     // Applicative Ex
-    tupled(Either.Right(1), Either.Right("a"), Either.Right(2.0))
-    Either.fx {
+    Either.fx<Int, Int> {
         val (a) = Either.Right(1)
         val (b) = Either.Right(1 + a)
         val (c) = Either.Right(1 + b)

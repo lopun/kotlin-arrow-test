@@ -32,4 +32,5 @@ fun main() {
     ::monoid runWithBlock "monoid"
     ::eitherStyle runWithBlock "eitherStyle"
     ::eitherSyntax runWithBlock "eitherSyntax"
+    ::applicativeExamples runWithBlock "applicativeExamples"
 }

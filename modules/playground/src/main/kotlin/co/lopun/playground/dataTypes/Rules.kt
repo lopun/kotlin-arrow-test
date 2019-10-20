@@ -3,6 +3,7 @@ package co.lopun.playground.dataTypes
 import arrow.Kind
 import arrow.core.*
 import arrow.core.extensions.either.applicativeError.applicativeError
+import arrow.core.extensions.list.apply.ap
 import arrow.core.extensions.nonemptylist.semigroup.semigroup
 import arrow.core.extensions.validated.applicativeError.applicativeError
 import arrow.typeclasses.*
@@ -69,3 +70,4 @@ fun failFastStrategy() {
     }
     // [Left(a=NonEmptyList(all=[NotAnEmail(reasons=NonEmptyList(all=[DoesNotContain(value=@)]))])), Left(a=NonEmptyList(all=[NotAnEmail(reasons=NonEmptyList(all=[DoesNotContain(value=@)]))])), Right(b=Email(value=getlost@nowhere.com))]
 }
+
