@@ -30,6 +30,7 @@ dependencies {
     implementation(arrow("fx"))
     implementation(arrow("optics"))
     implementation(arrow("syntax"))
+    implementation("org.jetbrains.kotlin:kotlin-reflect:1.3.50")
     kapt(arrow(module = "meta"))
 }
 
