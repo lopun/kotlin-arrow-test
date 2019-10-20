@@ -31,4 +31,5 @@ fun main() {
     ::semigroup runWithBlock "semigroup"
     ::monoid runWithBlock "monoid"
     ::eitherStyle runWithBlock "eitherStyle"
+    ::eitherSyntax runWithBlock "eitherSyntax"
 }
