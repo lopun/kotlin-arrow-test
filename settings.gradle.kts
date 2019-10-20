@@ -11,4 +11,3 @@ rootProject.name = "kotlin-arrow-test"
 
 include(":modules")
 include(":modules:playground")
-include(":modules:utils")
